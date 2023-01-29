@@ -1,0 +1,14 @@
+To use this script, you would need to have Python and the Selenium library installed on your computer.
+
+You can install Selenium by running the following command in your terminal: pip install selenium
+
+You also need to download the Chrome web driver from https://sites.google.com/a/chromium.org/chromedriver/downloads 
+and have the path to the chrome driver executable in your PATH environment variable.
+
+Once you have these things set up, you can run the script by opening a terminal, navigating to the directory 
+where the script is saved, and running the following command: python dataextractor.py
+
+You will also need to replace the website URL, login credentials, and id of the element you want to extract the data 
+from with the actual values for the website you want to automate.
+
+You can also include this script in a larger program or schedule it to run at certain times using libraries such as schedule or APScheduler.
